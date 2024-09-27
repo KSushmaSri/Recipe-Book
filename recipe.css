@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1a85d;
+    padding: 10px;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.dropdown-content, .info {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+img{
+    width: 60px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+}
+h2{
+    padding-left: 20px;
+}
