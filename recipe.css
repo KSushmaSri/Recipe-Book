@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -19,6 +25,9 @@ nav{
 img{
     width: 60px;
     border-radius: 50%;
+    max-width: 100%;
+    /* width: 80px;
+    height: 80px; */
 }
 .logo{
     display: flex;
@@ -32,8 +41,8 @@ h2{
     justify-content: center;
 }
 .cards .card{
-    object-fit: contain;
-    max-width: 400px;
+    object-fit: cover;
+    max-width: 40%;
 }
 .card{
     /* border: 2px solid black; */
