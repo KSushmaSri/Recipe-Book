@@ -101,9 +101,6 @@ a{
 }
 .content-img{
     display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    border: 2px solid black;
     margin: 10px;
 }
 .content-img img{
@@ -115,11 +112,46 @@ a{
     width: 100%;
     padding: 10px;
 }
+.about-dish{
+    margin: 40px 20px ;
+}
 .about-dish h1,p{
     display: flex;
 }
 .about-dish h1{
    background-color: #dac380;
 }
-
+/*#about{
+    background-color: #c1a85d;
+    color: white;
+} */
+ #breakfast, #veg_curries, #non-veg{
+    border: 2px solid rgb(206, 158, 53);
+    margin: 20px;
+    padding: 10px; 
+ }
+.content{
+    display: flex;
+    padding: 20px;
+ }
+ .Ingredients{
+    margin: 20px;
+ }
+ .Process{
+    margin: 20px;
+ }
+ #about{
+    margin: 20px;
+    padding: 20px;
+    background-color: #d7cfb7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ #contact{
+    background-color: #c1a85d;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
 
