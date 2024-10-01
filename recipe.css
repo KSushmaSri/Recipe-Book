@@ -141,6 +141,9 @@ a{
  .Process{
     margin: 20px;
  }
+ .about{
+    text-align: center;
+ }
  #about{
     margin: 20px;
     padding: 20px;
