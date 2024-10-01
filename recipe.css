@@ -114,7 +114,8 @@ a{
     padding: 10px;
 }
 .about-dish{
-    margin: 40px 20px ;
+    margin: 4% 10% ;
+    max-width: 50%;
 }
 .about-dish h1,p{
     display: flex;
@@ -142,6 +143,7 @@ a{
     margin: 20px;
  }
  .about{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
  }
  #about{
