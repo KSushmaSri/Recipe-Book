@@ -107,6 +107,7 @@ a{
     height: 200px;
     padding:50px 10px ;
     border-radius: 80px 100px;
+    max-width: 30%;
 } 
 .main-section{
     width: 100%;
@@ -125,10 +126,10 @@ a{
     background-color: #c1a85d;
     color: white;
 } */
- #breakfast, #veg_curries, #non-veg{
-    border: 2px solid rgb(206, 158, 53);
-    margin: 20px;
-    padding: 10px; 
+#breakfast, #veg_curries, #non-veg{
+   border: 2px solid rgb(206, 158, 53);
+   margin: 20px;
+   padding: 10px; 
  }
 .content{
     display: flex;
