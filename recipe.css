@@ -98,11 +98,11 @@ button{
     border: none;
     height: 25px;
     border-radius: 3px;
-    transition: transform 2s;
+    transition: transform 0.5s;
 }
 button:hover{
     background-color: #f0c76f;
-
+    transform: scale(1.10);
 }
 button a:hover{
     background-color: #f0c76f;
