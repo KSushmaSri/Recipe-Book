@@ -100,7 +100,11 @@ button{
     border-radius: 3px;
 }
 button:hover{
-    
+    background-color: #f0c76f;
+}
+button a:hover{
+    background-color: #f0c76f;
+    color: black;
 }
 a{
     color: aliceblue;
