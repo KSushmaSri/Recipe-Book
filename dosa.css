@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1a85d;
+    /* padding: 10px 20px; */
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    height: 80px;
+} 
+/* nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+} */
+/* .right{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+} */
+ nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+ }
+ nav ul li{
+    display: inline;
+    font-size: 18px;
+ }
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    background-color: #f0c76f;
+    border-radius: 5px;
+    color: black;
+}
+nav .logo-img{
+    width: 60px;
+    border-radius: 50%;
+    width: 50px;
+    height: 56px;
+    margin: 10px 0 0 10px;
+}
+.logo{
+    display: flex;
+}
+h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.content-img{
+    display: flex;
+    margin: 10px;
+}
+.content-img img{
+    height: auto;
+    padding:50px 10px ;
+    max-width: 100%;
+} 
+.main-section{
+    width: 100%;
+    padding: 100px;
+}
+.about-dish{
+    margin: 4% 10% ;
+    max-width: 50%;
+}
+.about-dish h1,p{
+    display: flex;
+}
+.about-dish h1{
+   background-color: #dac380;
+}
+/*#about{
+    background-color: #c1a85d;
+    color: white;
+} */
+#breakfast{
+   border: 2px solid rgb(206, 158, 53);
+   margin: 20px;
+   padding: 10px; 
+ }
+.content{
+    display: flex;
+    padding: 20px;
+ }
+ .Ingredients{
+    margin: 20px;
+ }
+ .Process{
+    margin: 20px;
+ }
