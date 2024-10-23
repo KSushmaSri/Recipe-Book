@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    align-items: center;
+    text-align: center;
+}
 nav{
     display: flex;
     justify-content: space-between;
