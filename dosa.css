@@ -16,18 +16,6 @@ nav{
     height: 80px;
     z-index: 1;
 } 
-/* nav {
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-} */
-/* .right{
-    display: flex;
-    justify-content: end;
-    gap: 20px;
-} */
  nav ul{
     list-style: none;
     margin: 0;
