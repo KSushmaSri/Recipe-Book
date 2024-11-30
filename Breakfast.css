@@ -154,7 +154,7 @@ h1{
     transition: color 0.3s ease;
 }
 .footer-links ul li a:hover{
-    color: orangered;
+    color: #c1a85d;
 }
 .footer-social h4 {
     font-size: 18px;
@@ -173,7 +173,7 @@ h1{
     transition: color 0.3s ease;
 }
 .social-icons li a:hover{
-    color: orangered;
+    color: #c1a85d;
 }
 .footer-contact h4 {
     font-size: 18px;

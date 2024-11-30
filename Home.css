@@ -3,10 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
     align-items: center;
     text-align: center;
-}
+} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -230,7 +230,7 @@ h2{
     transition: color 0.3s ease;
 }
 .footer-links ul li a:hover{
-    color: orangered;
+    color: #c1a85d;
 }
 .footer-social h4 {
     font-size: 18px;
@@ -249,7 +249,7 @@ h2{
     transition: color 0.3s ease;
 }
 .social-icons li a:hover{
-    color: orangered;
+    color: #c1a85d;
 }
 .footer-contact h4 {
     font-size: 18px;
@@ -261,13 +261,15 @@ h2{
     color: #ccc;
     margin: 5px 0;
 }
-.footer-bottom {
-    text-align: center;
+footer .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
     background-color: #222;
     margin-top: 30px;
 }
-.footer-bottom p {
+footer .footer-bottom .p {
     font-size: 14px;
     color: #ccc;
 }
