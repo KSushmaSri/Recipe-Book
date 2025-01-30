@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* body{
     align-items: center;
@@ -59,7 +60,7 @@ h2{
     margin-top: 60px;
     padding: 20px 0 0 0;
     text-align: center;
-    height: 88vh;
+    height: 86vh;
     width: 100%;
 }
 .hero{
@@ -72,18 +73,11 @@ h2{
 .hero h1{
     font-size: 48px;
     color: #0b0a08;
-    padding: 40px 0 0 0;
+    padding: 30px 0 0 0;
 }
-.search-bar {
-    margin: 60px 0 0 0;
-    padding: 10px;
-    width: 80%;
-    max-width: 500px;
-    border: 1px solid #c1a85d;
-    border-radius: 5px;
-}
+
 .video{
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 .cards-section {
@@ -100,6 +94,10 @@ h2{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.cards :hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 .card {
     background-color: #fff;
